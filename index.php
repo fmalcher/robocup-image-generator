@@ -1,11 +1,47 @@
 <?php
 $teams = array(
-    'Marc',
-    'Ferdinand',
-    'Lukas',
-    'HTWK',
-    'Johannes',
-    'Tino'
+  'UT Austin Villa',
+  'Austrian Kangaroos',
+  'Bembelbots',
+  'Berlin United',
+  'B-Human',
+  'Cerberus',
+  'DAInamite',
+  'Dutch Nao Team',
+  'Edinferno',
+  'Kouretes',
+  'MiPal',
+  'Nao Devils Dortmund',
+  'Nao-Team HTWK',
+  'Northern Bites',
+  'NTU RoboPAL',
+  'RoboCanes',
+  'RoboEireann',
+  'UNSW Australia',
+  'SPQR Team',
+  'TJArk',
+  'UChile Robotics Team',
+  'UPennalizers',
+  'Crude Scientists',
+  'HULKs',
+  'MRL-SPL',
+  'Philosopher',
+  'Rimal Team',
+  'SpelBots',
+  'Team-NUST',
+  'UnBeatables',
+  'UTH-CAR',
+  'Z-Knipsers',
+  'SPURT',
+  'Blue Spider',
+  'Camellia Dragons',
+  'JoiTech-SPL',
+  'Linköping Humanoids',
+  'WrightOcean',
+  'GraceBand',
+  'Aztlan Team',
+  'CMSingle',
+  'TeamSP'
 );
 sort($teams);
 
@@ -40,13 +76,13 @@ body {
 </head>
 
 <body>
-    
+
 <h1>RoboCup Teaser Image Generator</h1>
 
 <div style="width: 500px;">
 
 <form class="ui form" method="GET" action="image.php" target="_blank">
-    
+
     <div class="field">
         <label>Field</label>
         <select name="field" class="ui fluid dropdown">
@@ -57,7 +93,7 @@ body {
     <?php } ?>
         </select>
     </div>
-    
+
     <div class="two fields">
         <div class="field">
             <label>Day</label>
@@ -69,8 +105,8 @@ body {
     <?php } ?>
             </select>
         </div>
-        
-        
+
+
         <div class="two fields">
             <div class="field">
                 <label>Hour</label>
@@ -97,11 +133,11 @@ body {
                 </select>
             </div>
         </div>
-        
-        
+
+
     </div>
-    
-    
+
+
     <div class="two fields">
         <div class="field">
             <label>Team A</label>
@@ -113,7 +149,7 @@ body {
     <?php } ?>
             </select>
         </div>
-        
+
         <div class="field">
             <label>Team B</label>
             <select name="teamb" class="ui fluid dropdown">
@@ -125,7 +161,7 @@ body {
             </select>
         </div>
     </div>
-    
+
     <button type="submit" class="ui primary button">
     Create image
     </button>
