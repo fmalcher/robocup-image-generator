@@ -1,7 +1,7 @@
 <?php
 $teams = array(
   'UT Austin Villa',
-  'Austrian Kangaroos',
+  'Aus. Kangaroos', //Austrian Kangaroos
   'Bembelbots',
   'Berlin United',
   'B-Human',
@@ -11,7 +11,7 @@ $teams = array(
   'Edinferno',
   'Kouretes',
   'MiPal',
-  'Nao Devils Dortmund',
+  'Devils Dortmund', //Nao Devils Dortmund
   'Nao-Team HTWK',
   'Northern Bites',
   'NTU RoboPAL',
@@ -20,7 +20,7 @@ $teams = array(
   'UNSW Australia',
   'SPQR Team',
   'TJArk',
-  'UChile Robotics Team',
+  'UChile Robotics', //UChile Robotics Team
   'UPennalizers',
   'Crude Scientists',
   'HULKs',
@@ -36,7 +36,7 @@ $teams = array(
   'Blue Spider',
   'Camellia Dragons',
   'JoiTech-SPL',
-  'Linköping Humanoids',
+  'Linköping', //Linköping Humanoids
   'WrightOcean',
   'GraceBand',
   'Aztlan Team',
