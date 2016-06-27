@@ -11,7 +11,7 @@ $teams = array(
   'Edinferno',
   'Kouretes',
   'MiPal',
-  'Devils Dortmund', //Nao Devils Dortmund
+  'Nao Devils Dortmund', //Devils Dortmund? 
   'Nao-Team HTWK',
   'Northern Bites',
   'NTU RoboPAL',
