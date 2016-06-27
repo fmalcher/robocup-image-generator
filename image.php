@@ -28,7 +28,7 @@ $team = array();
 $team['a'] = $_GET['teama'];
 $team['b'] = $_GET['teamb'];
 $text_team = $team['a'] . ' &ndash; ' . $team['b'];
-imagettftext($image, 40, 0, 365, 555, $color, $font_extrabold, $text_team);
+imagettftext($image, 30, 0, 365, 552, $color, $font_extrabold, $text_team);
 
 
 
